@@ -1,0 +1,90 @@
+.proyect-img-modal {
+    width: 90%;
+    height: 90%;
+    margin: 2rem auto 1rem auto;
+    border-radius: 10px;
+    box-shadow: 6px 2px 16px 0px rgba(0, 0, 0, 0.48), -6px -2px 16px 0px rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.proyect-img-modal-div{
+    position: relative;
+} 
+
+.btn-previous {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.2rem;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--color-primary);
+    background: transparent;
+}
+
+.btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.2rem;
+
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--color-primary);
+    background: transparent;
+}
+
+.btn-previous:hover{
+    color: var(--color-light);
+}
+
+.btn-next:hover{
+    color: var(--color-light);
+}
+
+/* Media queries (medium devices)  */
+
+@media screen and (max-width: 1024px) {
+    .btn-previous {      
+        left: 5px;  
+    }
+    
+    .btn-next {
+        right: 5px;
+    }
+  }
+  
+  /* Media queries (small devices)  */
+  
+  @media screen and (max-width: 600px) {
+      
+    .proyect-img-modal-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .proyect-img-modal {
+        width: 100%;
+        margin: 3rem auto 3rem auto;
+    }
+
+    .button-div{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .btn-previous {  
+        position: static;     
+    }
+    
+    .btn-next {
+        position: static;
+    }
+    
+    .btn-carousel {
+        font-size: 20px;      
+    }
+}
+  
