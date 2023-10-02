@@ -6,7 +6,7 @@ import {SiGmail} from "react-icons/si"
 import { TypeAnimation } from 'react-type-animation';
 // import {motion} from "framer-motion"
 // import {fadeIn} from "../variants"
-import CV from "../assets/Curriculum Vitae.pdf"
+import CV from "../assets/Curriculum.pdf"
 
 const Banner = () => {
 

@@ -68,6 +68,7 @@ const Work = () => {
             </a>              
             </button>
           </div>
+
           <div className='group-relative overflow-hidden border-2 border-white/50 lg:h-[260px] lg:w-[500px] rounded-xl'>
 
             <div className='img-1 w-full absolute z-40 transition-all duration-300'></div>
@@ -81,8 +82,6 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
             </div>
 
-            <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
-            </div>
           </div>
         </div>
         <div className='flex-1 flex flex-col gap-y-10 mt-[35px]'>
@@ -99,9 +98,8 @@ const Work = () => {
             <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
               </div>
 
-            <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
-            </div>
           </div>
+
           <div className='group-relative lg:h-[260px] lg:w-[500px]  overflow-hidden border-2 border-white/50 rounded-xl'>
             <div className='img-1 w-full absolute z-40 transition-all duration-300'></div>
 
@@ -112,10 +110,10 @@ const Work = () => {
             </ModalImg> 
 
             <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
-              </div>
-            <div className='absolute -bottom-full left-12 transition-all duration-500 z-50'>
-            </div>
+              </div>                                             
           </div>
+          
+
         </div>
       </div>
     </div>
