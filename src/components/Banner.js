@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Image from "../assets/img-juani.png"
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 import {SiGmail} from "react-icons/si"
@@ -64,9 +64,9 @@ const Banner = () => {
           viewport={{once: false, amount:0.7}}
           className='flex gap-x-6 max-w-max items-center mb-12 mx-auto lg:mx-0'> */}
           <div className='flex gap-x-6 max-w-max items-center mb-12 mx-auto lg:mx-0'>
-            <Link to='contact' smooth={true}>
+          <Link to='contact' smooth={true}>
             <button className='btn btn-sm'>Contact me</button>
-            </Link>
+          </Link>
             <button className='btn btn-sm'>
               <a href={CV} download >Download CV</a>
             </button>
