@@ -73,15 +73,15 @@ const Banner = () => {
           </div>
           {/* </motion.div>  */}
           <div className='flex text-[30px] gap-x-6 max-w-max mx-auto lg:ml-0 cursor-pointer'>
-          <Link to="https://github.com/Juanicamuss21">
+          <a href="mailto:juanicamuss15@gmail.com" target="_blank" rel='noreferrer'>
               <SiGmail/>
-          </Link>
-          <Link to="https://github.com/Juanicamuss21">
+          </a>
+          <a href="https://github.com/Juanicamuss21" target="_blank" rel='noreferrer'>
               <FaGithub/>
-          </Link>
-          <Link to="https://www.linkedin.com/in/juan-ignacio-camus-703102251/">
+          </a>
+          <a href="https://www.linkedin.com/in/juan-ignacio-camus-703102251/" target="_blank" rel='noreferrer'>
               <FaLinkedin/>
-          </Link>
+          </a>
           </div>
         </div>
         {/* <motion.div 
