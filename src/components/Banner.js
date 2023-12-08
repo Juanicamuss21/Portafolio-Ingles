@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import Image from "../assets/img-juani.png"
+import Image from "../assets/Img Header.jpeg"
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 import {SiGmail} from "react-icons/si"
 import { TypeAnimation } from 'react-type-animation';
